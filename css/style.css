@@ -3054,7 +3054,7 @@ ul.wp-block-latest-posts.is-grid.alignwide {
 }
 
 .background {
-    background: url(../img/effect/1.png) no-repeat 50% 100%;
+    background: url(../img/effect/1.webp) no-repeat 50% 100%;
     bottom: 96px;
     background-size: cover;
     position: absolute;
@@ -3075,7 +3075,7 @@ ul.wp-block-latest-posts.is-grid.alignwide {
     background-size: 128px 224px;
     height: 224px;
     width: 128px;
-    background-image: url(../img/effect/2.png);
+    background-image: url(../img/effect/2.webp);
     background-repeat: no-repeat;
     bottom: 64px;
     position: absolute;
@@ -3083,11 +3083,11 @@ ul.wp-block-latest-posts.is-grid.alignwide {
 }
 
 .wave.plain {
-    background-image: url(../img/effect/3.png);
+    background-image: url(../img/effect/3.webp);
 }
 
 .wave.paint {
-    background-image: url(../img/effect/4.png);
+    background-image: url(../img/effect/4.webp);
 }
 
 .light {
@@ -3102,11 +3102,11 @@ ul.wp-block-latest-posts.is-grid.alignwide {
 }
 
 .light.orange {
-    background-image: url(../img/effect/5.png);
+    background-image: url(../img/effect/5.webp);
 }
 
 .light.purple {
-    background-image: url(../img/effect/6.png);
+    background-image: url(../img/effect/6.webp);
 }
 
 .light.a {
@@ -3271,23 +3271,23 @@ ul.wp-block-latest-posts.is-grid.alignwide {
 }
 
 .board.birds {
-    background-image: url(../img/effect/5.png);
+    background-image: url(../img/effect/5.webp);
 }
 
 .board.cloud-1 {
-    background-image: url(../img/effect/1.png);
+    background-image: url(../img/effect/1.webp);
 }
 
 .board.cloud-2 {
-    background-image: url(../img/effect/2.png);
+    background-image: url(../img/effect/2.webp);
 }
 
 .board.cloud-3 {
-    background-image: url(../img/effect/3.png);
+    background-image: url(../img/effect/3.webp);
 }
 
 .board.cloud-4 {
-    background-image: url(../img/effect/4.png);
+    background-image: url(../img/effect/4.webp);
 }
 
 .swing-1 {
@@ -7401,7 +7401,7 @@ ul.wp-block-latest-posts.is-grid.alignwide {
 
 /* Title Background Image */
 .title-bg-img {
-    background-image: url("../img/slider/1.jpg");
+    background-image: url("../img/slider/1.webp");
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -7409,7 +7409,7 @@ ul.wp-block-latest-posts.is-grid.alignwide {
 }
 
 .title-bg-img-2 {
-    background-image: url("../img/slider/2.jpg");
+    background-image: url("../img/slider/2.webp");
 }
 
 /* Slide Arrow */
@@ -14749,7 +14749,7 @@ input.cart-plus-minus-box {
     content: "";
     top: -30px;
     left: -5px;
-    background-image: url(../img/icons/car.png);
+    background-image: url(../img/icons/car.webp);
     z-index: 99;
     width: 125px;
     height: 50px;

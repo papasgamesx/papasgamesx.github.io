@@ -15,7 +15,7 @@ $(function () {
                 '</div>',
                 '</div>'
             ].join(''),
-            icon: 'img/icons/map-marker-2.png',
+            icon: 'img/icons/map-marker-2.webp',
             animation: google.maps.Animation.BOUNCE
         },
         {
@@ -32,7 +32,7 @@ $(function () {
                 '</div>',
                 '</div>'
             ].join(''),
-            icon: 'img/icons/map-marker-2.png',
+            icon: 'img/icons/map-marker-2.webp',
             animation: google.maps.Animation.BOUNCE
         },
         {
@@ -49,7 +49,7 @@ $(function () {
                 '</div>',
                 '</div>'
             ].join(''),
-            icon: 'img/icons/map-marker-2.png',
+            icon: 'img/icons/map-marker-2.webp',
             animation: google.maps.Animation.BOUNCE
         },
         {
@@ -66,7 +66,7 @@ $(function () {
                 '</div>',
                 '</div>'
             ].join(''),
-            icon: 'img/icons/map-marker-2.png',
+            icon: 'img/icons/map-marker-2.webp',
             animation: google.maps.Animation.BOUNCE
         },
         {
@@ -83,7 +83,7 @@ $(function () {
                 '</div>',
                 '</div>'
             ].join(''),
-            icon: 'img/icons/map-marker-2.png',
+            icon: 'img/icons/map-marker-2.webp',
             animation: google.maps.Animation.BOUNCE
         },
         {
@@ -100,7 +100,7 @@ $(function () {
                 '</div>',
                 '</div>'
             ].join(''),
-            icon: 'img/icons/map-marker-2.png',
+            icon: 'img/icons/map-marker-2.webp',
             animation: google.maps.Animation.BOUNCE
         },
         {
@@ -117,7 +117,7 @@ $(function () {
                 '</div>',
                 '</div>'
             ].join(''),
-            icon: 'img/icons/map-marker-2.png',
+            icon: 'img/icons/map-marker-2.webp',
             animation: google.maps.Animation.BOUNCE
         },
         {
@@ -134,7 +134,7 @@ $(function () {
                 '</div>',
                 '</div>'
             ].join(''),
-            icon: 'img/icons/map-marker-2.png',
+            icon: 'img/icons/map-marker-2.webp',
             animation: google.maps.Animation.BOUNCE
         },
         {
@@ -151,7 +151,7 @@ $(function () {
                 '</div>',
                 '</div>'
             ].join(''),
-            icon: 'img/icons/map-marker-2.png',
+            icon: 'img/icons/map-marker-2.webp',
             animation: google.maps.Animation.BOUNCE
         },
         {
@@ -168,7 +168,7 @@ $(function () {
                 '</div>',
                 '</div>'
             ].join(''),
-            icon: 'img/icons/map-marker-2.png',
+            icon: 'img/icons/map-marker-2.webp',
             animation: google.maps.Animation.BOUNCE
         },
         {
@@ -185,7 +185,7 @@ $(function () {
                 '</div>',
                 '</div>'
             ].join(''),
-            icon: 'img/icons/map-marker-2.png',
+            icon: 'img/icons/map-marker-2.webp',
             animation: google.maps.Animation.BOUNCE
         }
 
