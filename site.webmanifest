@@ -1,0 +1,17 @@
+{
+    "name": "Papa's Games",
+    "short_name": "PapasGames",
+    "description": "Unblocked Papa's Games fun: Play Papa's Freezeria and more online for free! 🍔 Cook, serve, manage, & become a restaurant tycoon - no downloads!",
+    "scope": "/",
+    "start_url": "/",
+    "display": "standalone",
+    "background_color": "#ffffff",
+    "theme_color": "#ffffff",
+    "icons": [
+        {
+            "src": "/android-chrome-192x192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        }
+    ]
+}
