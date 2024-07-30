@@ -16727,3 +16727,51 @@ input#isso-postbox-website {
 ---------------------------------------------------- */
 
 /*# sourceMappingURL=style.css.map */
+
+
+.site-logo {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .site-logo img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  
+  .site-logo::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%; /* Set the width to match the image width */
+    height: 100%; /* Set the height to match the image height */
+    transform: skew(-30deg);
+    background: rgba(255, 255, 255, 0.5);
+    background: linear-gradient(
+      90deg,
+      rgba(255, 255, 255, 0) 10%,
+      rgba(255, 255, 255, 0.35) 40%,
+      rgba(255, 255, 255, 0.35) 50%,
+      rgba(255, 255, 255, 0) 80%
+    );
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-out;
+    animation-name: sweep;
+  }
+  
+  @keyframes sweep {
+    0% {
+      left: -180px;
+    }
+  
+    60% {
+      left: 180px;
+    }
+  
+    100% {
+      left: 180px;
+    }
+  }
