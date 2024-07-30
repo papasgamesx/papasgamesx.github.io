@@ -127,13 +127,30 @@
 							
 
 						</div>
+
+
+					
 					</div>
 				</div>
 				<!-- ABOUT US AREA END -->
 			</div>
+			<div class="row justify-content-center align-items-center">
+				<div class="col-lg-12 mt-3 mb-3 text-center">
+					<a class="btn btn-success" href="#gamelist">
+						Papa's Games List
+						<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-down" viewBox="0 0 16 16">
+							<path fill-rule="evenodd" d="M8 11a.5.5 0 0 0 .5-.5V3.707l3.147 3.147a.5.5 0 0 0 .708-.708l-4-4a.5.5 0 0 0-.708 0l-4 4a.5.5 0 1 0 .708.708L7.5 3.707V10.5A.5.5 0 0 0 8 11z"/>
+						</svg>
+					</a>
+					<button class="btn btn-primary" id="openPageButton">Launch in about:blank</button>
+				</div>
+			</div>
+			
+			
+						
 			<!-- PRODUCT AREA START -->
 			<div class="section-title-area ltn__section-title-1 text-center mt-50" style="background: var(--success);">
-				<h2 class="section-title">Papa Louie Games</h2>
+				<h2 id="gamelist" class="section-title">Papa Louie Games</h2>
 			</div>
 			<div class="row ltn__tab-product-slider-one-active--- slick-arrow-1">
 				
@@ -1525,6 +1542,20 @@
 		</div>
 	</div>
 </div>
+<script>
+	document.getElementById('openPageButton').addEventListener('click', function() {
+		const tab = window.open('about:blank', '_blank');
+		const iframe = tab.document.createElement('iframe');
+		const stl = iframe.style;
+		stl.border = stl.outline = 'none';
+		stl.width = '100vw';
+		stl.height = '100vh';
+		stl.position = 'fixed';
+		stl.left = stl.right = stl.top = stl.bottom = '0';
+		iframe.src = self.location;
+		tab.document.body.appendChild(iframe);
+	});
+</script>
 <!-- preloader area end -->
 </body>
 </html>
